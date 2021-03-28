@@ -1,0 +1,9 @@
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Domain\bin\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Domain.deps.json
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Domain\bin\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Domain.dll
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Domain\bin\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Domain.pdb
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Domain\obj\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Domain.csprojAssemblyReference.cache
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Domain\obj\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Domain.AssemblyInfoInputs.cache
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Domain\obj\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Domain.AssemblyInfo.cs
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Domain\obj\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Domain.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Domain\obj\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Domain.dll
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Domain\obj\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Domain.pdb

@@ -1,0 +1,15 @@
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Repository\bin\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Repository.deps.json
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Repository\bin\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Repository.dll
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Repository\bin\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Repository.pdb
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Repository\obj\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Repository.csprojAssemblyReference.cache
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Repository\obj\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Repository.AssemblyInfoInputs.cache
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Repository\obj\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Repository.AssemblyInfo.cs
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Repository\obj\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Repository.dll
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Repository\obj\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Repository.pdb
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Repository\bin\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Domain.dll
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Repository\bin\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Domain.pdb
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Repository\obj\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Repository.csproj.CopyComplete
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Repository\bin\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Repository.runtimeconfig.json
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Repository\bin\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Repository.runtimeconfig.dev.json
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Repository\obj\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Repository.genruntimeconfig.cache
+D:\Desenvolvimento\MySimpleEcommerce\WaTecnologia.MySimpleEcommerce\WaTecnologia.MySimpleEcommerce.Repository\obj\Debug\netcoreapp3.1\WaTecnologia.MySimpleEcommerce.Repository.csproj.CoreCompileInputs.cache
