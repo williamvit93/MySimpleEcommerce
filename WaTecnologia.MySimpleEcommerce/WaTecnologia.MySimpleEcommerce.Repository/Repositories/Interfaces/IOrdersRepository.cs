@@ -2,7 +2,7 @@
 
 namespace WaTecnologia.MySimpleEcommerce.Repository.Repositories.Interfaces
 {
-    public interface ISalesRepository : IBaseRepository<Sale>
+    public interface IOrdersRepository : IBaseRepository<Order>
     {
     }
 }

@@ -22,7 +22,7 @@ namespace WaTecnologia.MySimpleEcommerce.Repository
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductPrice> ProductPrices { get; set; }
-        public DbSet<Sale> Sales { get; set; }
+        public DbSet<Order> Orders { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -51,14 +51,14 @@ namespace WaTecnologia.MySimpleEcommerce.Repository
             modelBuilder.ApplyConfiguration(new CustomerMap());
             modelBuilder.ApplyConfiguration(new ProductMap());
             modelBuilder.ApplyConfiguration(new ProductPriceMap());
-            modelBuilder.ApplyConfiguration(new SaleMap());
+            modelBuilder.ApplyConfiguration(new OrderMap());
 
             foreach (var property in modelBuilder.Model
                     .GetEntityTypes()
                        .SelectMany(e => e.GetProperties()
                              .Where(p => p.ClrType == typeof(string))))
             {
-                property.SetColumnType("varchar(100)");
+                property.SetColumnType("varchar");
             }
         }
     }

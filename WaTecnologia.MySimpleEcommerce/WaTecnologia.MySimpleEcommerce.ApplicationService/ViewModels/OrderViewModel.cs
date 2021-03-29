@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace WaTecnologia.MySimpleEcommerce.ApplicationService.ViewModels
 {
-    public class SaleViewModel : BaseViewModel
+    public class OrderViewModel : BaseViewModel
     {
         public int CustomerId { get; set; }
         public List<ProductViewModel> Products { get; set; }

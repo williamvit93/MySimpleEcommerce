@@ -4,9 +4,9 @@ using WaTecnologia.MySimpleEcommerce.Domain.Entities;
 
 namespace WaTecnologia.MySimpleEcommerce.Repository.EntityMapping
 {
-    public class SaleMap : IEntityTypeConfiguration<Sale>
+    public class OrderMap : IEntityTypeConfiguration<Order>
     {
-        public void Configure(EntityTypeBuilder<Sale> builder)
+        public void Configure(EntityTypeBuilder<Order> builder)
         {
             builder.HasKey(s => s.Id);
 
@@ -14,12 +14,12 @@ namespace WaTecnologia.MySimpleEcommerce.Repository.EntityMapping
                 .IsRequired();
 
             builder.HasOne(s => s.Customer)
-                .WithMany(c => c.Sales)
+                .WithMany(c => c.Orders)
                 .HasForeignKey(s => s.CustomerId)
                 .OnDelete(DeleteBehavior.NoAction);
 
             builder.HasMany(s => s.Products)
-                .WithMany(c => c.Sales);
+                .WithMany(c => c.Orders);
 
             builder.Navigation(s => s.Products)
                 .UsePropertyAccessMode(PropertyAccessMode.Property);
@@ -27,7 +27,7 @@ namespace WaTecnologia.MySimpleEcommerce.Repository.EntityMapping
             builder.Navigation(s => s.Customer)
                 .UsePropertyAccessMode(PropertyAccessMode.Property);
 
-            builder.ToTable("Sales");
+            builder.ToTable("Orders");
         }
 
     }

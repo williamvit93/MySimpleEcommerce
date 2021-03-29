@@ -13,7 +13,7 @@ namespace WaTecnologia.MySimpleEcommerce.ApplicationService.AutoMapperConfig
                 cfg.CreateMap<CustomerViewModel, Customer>().ReverseMap();
                 cfg.CreateMap<ProductViewModel, Product>().ReverseMap();
                 cfg.CreateMap<ProductPriceViewModel, ProductPrice>().ReverseMap();
-                cfg.CreateMap<SaleViewModel, Sale>().ReverseMap();
+                cfg.CreateMap<OrderViewModel, Order>().ReverseMap();
             });
 
             return config.CreateMapper();

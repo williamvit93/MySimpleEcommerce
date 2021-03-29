@@ -13,6 +13,7 @@ namespace WaTecnologia.MySimpleEcommerce.Repository.EntityMapping
                 .IsRequired();
 
             builder.Property(c => c.Description)
+                .IsRequired()
                 .HasMaxLength(200);
 
             builder.HasMany(p => p.ProductPrices)
@@ -23,7 +24,7 @@ namespace WaTecnologia.MySimpleEcommerce.Repository.EntityMapping
             builder.Navigation(p => p.ProductPrices)
                 .UsePropertyAccessMode(PropertyAccessMode.Property);
 
-            builder.Navigation(p => p.Sales)
+            builder.Navigation(p => p.Orders)
                 .UsePropertyAccessMode(PropertyAccessMode.Property);
 
             builder.ToTable("Products");

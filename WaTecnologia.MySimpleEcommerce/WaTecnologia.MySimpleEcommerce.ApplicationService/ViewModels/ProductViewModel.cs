@@ -6,6 +6,6 @@ namespace WaTecnologia.MySimpleEcommerce.ApplicationService.ViewModels
     {
         public string Description { get; set; }
         public List<ProductPriceViewModel> ProductPrices { get; set; }
-        public virtual List<SaleViewModel> Sales { get; set; }
+        public virtual List<OrderViewModel> Sales { get; set; }
     }
 }

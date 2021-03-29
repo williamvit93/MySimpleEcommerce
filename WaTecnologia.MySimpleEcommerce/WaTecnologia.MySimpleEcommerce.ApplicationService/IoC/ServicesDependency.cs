@@ -18,23 +18,23 @@ namespace WaTecnologia.MySimpleEcommerce.ApplicationService.IoC
             services.AddTransient<IBaseAppServices<Customer, CustomerViewModel>, BaseAppServices<Customer, CustomerViewModel>>();
             services.AddTransient<IBaseAppServices<Product, ProductViewModel>, BaseAppServices<Product, ProductViewModel>>();
             services.AddTransient<IBaseAppServices<ProductPrice, ProductPriceViewModel>, BaseAppServices<ProductPrice, ProductPriceViewModel>>();
-            services.AddTransient<IBaseAppServices<Sale, SaleViewModel>, BaseAppServices<Sale, SaleViewModel>>();
+            services.AddTransient<IBaseAppServices<Order, OrderViewModel>, BaseAppServices<Order, OrderViewModel>>();
 
             services.AddTransient<ICustomerAppServices, CustomersAppServices>();
             services.AddTransient<IProductsAppServices, ProductsAppServices>();
             services.AddTransient<IProductPricesAppServices, ProductPricesAppService>();
-            services.AddTransient<ISalesAppServices, SalesAppServices>();
+            services.AddTransient<IOrdersAppServices, OrdersAppServices>();
 
             //Repositories
             services.AddTransient<IBaseRepository<Customer>, BaseRepository<Customer>>();
             services.AddTransient<IBaseRepository<Product>, BaseRepository<Product>>();
             services.AddTransient<IBaseRepository<ProductPrice>, BaseRepository<ProductPrice>>();
-            services.AddTransient<IBaseRepository<Sale>, BaseRepository<Sale>>();
+            services.AddTransient<IBaseRepository<Order>, BaseRepository<Order>>();
 
             services.AddTransient<ICustomersRepository, CustomersRepository>();
             services.AddTransient<IProductsRepository, ProductsRepository>();
             services.AddTransient<IProductPricesRepository, ProductPricesRepository>();
-            services.AddTransient<ISalesRepository, SalesRepository>();
+            services.AddTransient<IOrdersRepository, OrdersRepository>();
         }
     }
 }

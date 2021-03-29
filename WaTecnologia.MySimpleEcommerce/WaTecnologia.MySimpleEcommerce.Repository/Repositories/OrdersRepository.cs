@@ -3,7 +3,7 @@ using WaTecnologia.MySimpleEcommerce.Repository.Repositories.Interfaces;
 
 namespace WaTecnologia.MySimpleEcommerce.Repository.Repositories
 {
-    public class SalesRepository : BaseRepository<Sale>, ISalesRepository
+    public class OrdersRepository : BaseRepository<Order>, IOrdersRepository
     {
     }
 }

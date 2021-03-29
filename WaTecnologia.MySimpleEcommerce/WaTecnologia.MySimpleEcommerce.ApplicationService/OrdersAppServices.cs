@@ -6,9 +6,9 @@ using WaTecnologia.MySimpleEcommerce.Repository.Repositories.Interfaces;
 
 namespace WaTecnologia.MySimpleEcommerce.ApplicationService
 {
-    public class SalesAppServices : BaseAppServices<Sale, SaleViewModel>, ISalesAppServices
+    public class OrdersAppServices : BaseAppServices<Order, OrderViewModel>, IOrdersAppServices
     {
-        public SalesAppServices(IMapper mapper, IBaseRepository<Sale> baseRepository) : base(mapper, baseRepository)
+        public OrdersAppServices(IMapper mapper, IBaseRepository<Order> baseRepository) : base(mapper, baseRepository)
         {
         }
     }

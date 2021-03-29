@@ -9,11 +9,23 @@ namespace WaTecnologia.MySimpleEcommerce.Repository.EntityMapping
         public void Configure(EntityTypeBuilder<Customer> builder)
         {
             builder.HasKey(c => c.Id);
-            builder.Property(b => b.CreatedDate).IsRequired();
-            builder.Property(b => b.BirthDate).IsRequired();
-            builder.Property(c => c.FullName).HasMaxLength(200);
-            builder.Property(c => c.CPF).HasMaxLength(11);
-            builder.Navigation(s => s.Sales).UsePropertyAccessMode(PropertyAccessMode.Property);
+
+            builder.Property(b => b.CreatedDate)
+                .IsRequired();
+
+            builder.Property(b => b.BirthDate)
+                .IsRequired();
+
+            builder.Property(c => c.FullName)
+                .IsRequired()
+                .HasMaxLength(200);
+
+            builder.Property(c => c.CPF)
+                .IsRequired()
+                .HasMaxLength(11);
+
+            builder.Navigation(s => s.Orders)
+                .UsePropertyAccessMode(PropertyAccessMode.Property);
 
             builder.ToTable("Customer");
         }

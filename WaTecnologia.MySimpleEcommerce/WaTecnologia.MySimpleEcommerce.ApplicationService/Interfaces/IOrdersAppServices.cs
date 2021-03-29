@@ -3,7 +3,7 @@ using WaTecnologia.MySimpleEcommerce.Domain.Entities;
 
 namespace WaTecnologia.MySimpleEcommerce.ApplicationService.Interfaces
 {
-    public interface ISalesAppServices : IBaseAppServices<Sale, SaleViewModel>
+    public interface IOrdersAppServices : IBaseAppServices<Order, OrderViewModel>
     {
     }
 }
